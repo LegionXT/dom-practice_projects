@@ -10,15 +10,15 @@ window.addEventListener('keydown',(e) => {
   <table>
   <tr>
     <th>key</th>
-    <th>keyCode</th>
-    <th>Code</th>
+    <th>keycode</th>
+    <th>code</th>
   </tr>
   <tr>
                          // here, we extract from the event ...
     
     <td>${e.key === ' ' ? 'Space' : e.key}</td>
     <td>${e.keyCode}</td>
-    <td>${e.Code}</td>
+    <td>${e.code}</td>
   </tr>
 </table>
    </div>
